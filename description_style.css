@@ -1,0 +1,50 @@
+/*
+Copyright ©2017 Giftable Inc. All rights reserved.
+This CSS Style Sheet may not be used or reproduced in whole or in part, without the prior permission of Giftable Inc.
+Any person or group of persons found to be in breach of this notice may face legal action.
+*/
+#background { 
+	background: #ffffff; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#container { 
+	display: block;
+    float: none;
+    padding: 0px;
+    width: 1010px;
+}
+
+#itemtitle { 
+	margin: 0px 60px; 
+}
+
+#itemtitle h3 {
+	color: #2196f3;
+	font-size: 20px;
+	font-weight: bold;
+	margin:  20px 0px 15px 0px;
+}
+
+#itemdesc {
+	margin: 25px 60px;
+	color: #7f7f7f;
+}
+
+/*<========== tabs ==========>*/
+#shiptab, #paytab, #returntab, #warrantytab {
+	font-size: 14px;
+	line-height: 18px;
+	color: #818181;
+	margin: 35px 60px;
+}
+
+#shiptab .title, #paytab .title, #returntab .title, #warrantytab .title {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #2196f3;
+	color: #45494c;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 8px 0px;
+}
